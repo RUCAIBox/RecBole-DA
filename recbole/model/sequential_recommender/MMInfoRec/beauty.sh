@@ -1,0 +1,1 @@
+python run_mminforec.py --lr=0.001 --weight_decay=1e-4 --pred_step=1 --tau=0.3 --data_name=Beauty --num_hidden_layers=2 --num_attention_heads=2 --attention_probs_dropout_prob=0.5 --hidden_dropout_prob=0.5 --dc_s=1 --dc=1 --num_hidden_layers_gru=1 --mem=64 --mil=4 --epoch=50 --loss_fuse_dropout_prob=0.5

@@ -1,0 +1,1 @@
+python run_mminforec.py --lr=0.001 --weight_decay=1e-3 --pred_step=1 --tau=0.6 --data_name=Sports_and_Outdoors --num_hidden_layers=1 --num_attention_heads=1 --dc_s=1 --dc=1 --num_hidden_layers_gru=1 --mil=4 --epoch=200 --loss_fuse_dropout_prob=0.5 --mem=64
