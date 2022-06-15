@@ -56,7 +56,7 @@ embedding_size: 64
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CCL**   | learning_rate=0.005<br/>mlp_hidden_size=[32,32,16,8]<br/>reg_weight=0.001                                                                                                  |
 | **CL4SRec**    | learning_rate=0.0005<br/>share_embedding_size=32<br/>alpha=0.1<br/>reg_weight=0.0001                                                                                       |
-| **DuoRec**   | learning_rate=0.0005<br/>mlp_hidden_size=[64,64]<br/>dropout_prob=0.3<br/>alpha=0.3<br/>base_model=NeuMF                                                                   |
+| **DuoRec**   | learning_rate=0.0005<br/>mlp_hidden_size=[64,64]<br/>dropout_prob=0.3<br/>alpha=0.3<br/>base_model=Transformer                                                                   |
 | **MMInfoRec** | learning_rate=0.00001                                                                                                                                                      |
 | **CauseRec**  | learning_rate=0.0001<br/>n_layers=3<br/>drop_rate=0.1<br/>reg_weight=0.01                                  |
 | **CASR**     | learning_rate=0.0005<br/>lambda=0.2<br/>gamma=0.1<br/>alpha=0.2                                                                                                            |
