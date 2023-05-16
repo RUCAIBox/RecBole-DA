@@ -42,3 +42,6 @@ python run_seq.py -m [model] -d [dataset]
 ## 5）The Team
 
 RecBole-DA is developed and maintained by members from [RUCAIBox](http://aibox.ruc.edu.cn/), the developer is Shuqing Bian ([@fancybian](https://github.com/fancybian)).
+
+## 6） Acknowledgement
+CoSeRec and CauseRec are implemented based on [CoSeRec](https://github.com/YChen1993/CoSeRec) and [CauseRec](https://github.com/gzy-rgb/CauseRec). Thanks them for providing efficient implementation.
